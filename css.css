@@ -1,0 +1,2 @@
+.card { border-radius: 1rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,.1); padding: 1.5rem; background: #fff; }
+.video-thumb.locked { filter: blur(14px); transform: scale(1.1); }

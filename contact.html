@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Basket Training</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 antialiased">
+  <header class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+    <div class="max-w-5xl mx-auto px-6 py-6 flex flex-wrap items-center justify-between gap-4">
+      <a href="index.html" class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center font-bold">BT</div>
+        <div>
+          <h1 class="text-2xl font-semibold">Basket Training</h1>
+          <p class="text-sm opacity-90">Structured drills to level up your game</p>
+        </div>
+      </a>
+      <nav class="flex flex-wrap gap-2 items-center">
+        <a href="index.html" class="px-2 py-1 hover:underline">Home</a>
+        <a href="drills.html" class="px-2 py-1 hover:underline">Drills</a>
+        <a href="videos.html" class="px-2 py-1 hover:underline">Videos</a>
+        <a href="plans.html" class="px-2 py-1 hover:underline">Plans</a>
+        <a href="contact.html" class="px-2 py-1 hover:underline font-semibold underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+    <h2 class="text-3xl font-bold mb-6">Contact / Feedback</h2>
+    <form id="contactForm" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <input name="name" placeholder="Your name" required class="p-3 rounded border" />
+      <input name="email" type="email" placeholder="Email" required class="p-3 rounded border" />
+      <textarea name="message" placeholder="Message" required class="md:col-span-2 p-3 rounded border"></textarea>
+      <button type="submit" class="md:col-span-2 py-3 rounded bg-indigo-600 text-white">Send</button>
+    </form>
+  </main>
+
+  <footer class="text-center py-8 text-sm text-gray-600">
+    © 2025 Basket Training
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
